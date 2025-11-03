@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349932440767",
+    "project_id": "flirtok-journal",
+    "storage_bucket": "flirtok-journal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349932440767:android:PLACEHOLDER_ANDROID_APP_ID",
+        "android_client_info": {
+          "package_name": "app.rork.flirtok_journal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpbNd860umrAaIyb57n_eJTDSWHlvY2QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
