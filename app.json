@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "rork-app",
     "userInterfaceStyle": "automatic",
-    // --- ИЗМЕНЕНИЕ: Включаем New Architecture обратно, так как Reanimated этого требует.
     "newArchEnabled": true, 
     "splash": {
       "image": "./assets/images/splash-icon.png",
@@ -41,7 +40,6 @@
         {
           "ios": {
             "deploymentTarget": "15.1"
-            // УДАЛЕНО: compilerFlags больше не нужен
           }
         }
       ]
