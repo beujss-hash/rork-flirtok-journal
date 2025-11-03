@@ -44,7 +44,7 @@
         "extraPods": [
           { "name": "GoogleUtilities", "modular_headers": true }
         ],
-        "compilerFlags": "-Wno-error=non-modular-include-in-framework-module"
+        "otherCFlags": ["-Wno-error=non-modular-include-in-framework-module"]
       }
     }
   ]
