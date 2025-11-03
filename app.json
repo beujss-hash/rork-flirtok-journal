@@ -7,8 +7,8 @@
     "icon": "./assets/images/icon.png",
     "scheme": "rork-app",
     "userInterfaceStyle": "automatic",
-    // --- ИЗМЕНЕНИЕ: Отключаем New Architecture, чтобы избежать конфликта с Pods Firebase
-    "newArchEnabled": false, 
+    // --- ИЗМЕНЕНИЕ: Включаем New Architecture обратно, так как Reanimated этого требует.
+    "newArchEnabled": true, 
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "app.rork.flirtok-journal",
-      "buildNumber": "20",
+      "buildNumber": "29",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -40,11 +40,8 @@
         "expo-build-properties",
         {
           "ios": {
-            "deploymentTarget": "15.1",
-            "compilerFlags": [
-              // Оставляем этот флаг для подавления конфликтов Pods
-              "-Wno-non-modular-include-in-framework-module"
-            ]
+            "deploymentTarget": "15.1"
+            // УДАЛЕНО: compilerFlags больше не нужен
           }
         }
       ]
