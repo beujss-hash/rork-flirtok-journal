@@ -17,7 +17,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "app.rork.flirtok-journal",
-      "buildNumber": "25",
+      "buildNumber": "20",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -40,9 +40,9 @@
         "expo-build-properties",
         {
           "ios": {
-            "deploymentTarget": "13.0",
+            "deploymentTarget": "15.1",
             "compilerFlags": [
-              // Оставляем этот флаг, так как он может помочь другим Pods, но основная проблема теперь решается отключением New Arch
+              // Оставляем этот флаг для подавления конфликтов Pods
               "-Wno-non-modular-include-in-framework-module"
             ]
           }
